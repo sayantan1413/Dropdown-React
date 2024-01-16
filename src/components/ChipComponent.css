@@ -1,0 +1,48 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.chips {
+  @apply flex flex-wrap;
+}
+
+.chip {
+  @apply bg-gray-500 text-white rounded-full px-4 py-2 m-1 flex items-center;
+}
+
+.avatar {
+  @apply h-4 w-4 rounded-full mr-2 bg-white;
+}
+
+.highlighted-chip {
+  @apply bg-blue-500 text-white;
+}
+
+.remove-button {
+  @apply bg-transparent border-none text-white cursor-pointer ml-1;
+}
+
+.item-list {
+  @apply list-none p-0 cursor-pointer;
+}
+
+.item-list li {
+  @apply p-2 border border-gray-300 m-1;
+}
+
+.input-field-container {
+  @apply relative;
+}
+
+.input-field {
+  @apply w-full p-2 m-2 border border-gray-300 rounded;
+}
+
+.input-field:focus {
+  @apply outline-none;
+  box-shadow: 0 0 0 2px rgba(156, 163, 175, 0.5);
+}
+
+.highlighted-chip {
+  @apply bg-blue-500 text-white;
+}
